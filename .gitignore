@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers and linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated project artifacts
+/reports/*
+!/reports/.gitkeep
+/screenshots/*
+!/screenshots/.gitkeep
+# Local submission archives
+*.zip
